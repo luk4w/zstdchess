@@ -1,0 +1,29 @@
+{
+  "zstd_database": [
+    "db/lichess_db_standard_rated_2026-08.pgn.zst",
+    "https://database.lichess.org/standard/lichess_db_standard_rated_2026-07.pgn.zst",
+    "https://database.lichess.org/standard/lichess_db_standard_rated_2026-06.pgn.zst"
+  ],
+  "name": "2026_batch",
+  "groups": {
+    "events": [
+      "Rated Rapid game"
+    ],
+    "time_controls": [
+      "600+0"
+    ],
+    "min_plies": 20,
+    "start": 600,
+    "end": 2600,
+    "interval": 200,
+    "delta": 100,
+    "size": 64
+  },
+  "player": {
+    "quota": 1,
+    "banned_string": [
+      "BOT"
+    ],
+    "required_string": []
+  }
+}
